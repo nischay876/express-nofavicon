@@ -1,0 +1,20 @@
+{
+	"name": "@nischay876/express-nofavicon",
+	"version": "1.0.3",
+	"description": "Tiny Express middleware that sends HTTP 204 \"No Content\" for Favicon requests. ",
+	"main": "nofavicon.js",
+	"scripts": {
+		"test": "node test.js",
+		"release": "np"
+	},
+	"repository": "github:nischay876/express-nofavicon",
+	"author": "tycrek <t@tycrek.com> (https://tycrek.com/)",
+	"license": "ISC",
+	"bugs": "https://github.com/tycrek/NoFavicon/issues",
+	"homepage": "https://github.com/tycrek/NoFavicon#readme",
+	"devDependencies": {
+		"@tycrek/log": "^0.5.5",
+		"express": "^4.17.1",
+		"node-fetch": "^2.6.1"
+	}
+}
